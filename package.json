@@ -1,0 +1,17 @@
+{
+  "name": "myprayertimes-scrapers",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.11",
+    "fs-extra": "11.2.0",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^1.1.1"
+  },
+  "scripts": {
+    "update:sources": "node scripts/update_sources.js"
+  }
+}
+
+
